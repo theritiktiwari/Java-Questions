@@ -1,6 +1,7 @@
 # Basic Java Programs
 
 **Ques 1 :** Write a Java Program to print hello world sting on the console.
+
 **Code :**
 
 ```java
@@ -12,6 +13,7 @@ public class code1 {
 ```
 
 **Ques 2 :** Write a Java program to prompt the user to enter his / her first name and last name and then print a message 'Welcome' followed by the user's first and last name.
+
 **Code :**
 
 ```java
@@ -29,6 +31,7 @@ public class code2 {
 ```
 
 **Ques 3 :** Write a Java program to prompt the user to enter two binary numbers and display the sum of those two binary numbers on console.
+
 **Code :**
 
 ```java
@@ -62,6 +65,7 @@ public class code3 {
 ```
 
 **Ques 4 :** Write a Java program to prompt the user to enter the area of a circle and display the radius and perimeter of the circle.
+
 **Code :**
 
 ```java
@@ -84,6 +88,7 @@ public class code4 {
 • If input number is even and in the inclusive range 2 of to 10 , print You are an even in the range 2-10
 • If input number is even and in the inclusive range of 10 to 20, print You are an even in the range 10-20
 • If is even and greater than 20, print You are an even who is greater than 20
+
 **Code :**
 
 ```java
@@ -109,6 +114,7 @@ public class code5 {
 ```
 
 **Ques 6 :** Write a java program to read an integer, a double, and a String from stdin (System.in), then print the values.
+
 **Code :**
 
 ```java
@@ -132,6 +138,7 @@ public class code6 {
 ```
 
 **Ques 7 :** Write a Java Program for reading an integer and printing first 10 multiples of the input integer.
+
 **Code :**
 
 ```java
