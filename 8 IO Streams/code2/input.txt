@@ -1,0 +1,2 @@
+This is the second program of Java IO Streams.
+For counting the number of bytes, sentences and the words which starts with J.
