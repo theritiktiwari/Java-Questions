@@ -1,4 +1,4 @@
-# Multithreading
+# IO Streams
 
 **Ques 1 :** Using suitable I/O streams, write a Java program to read the content of a file named Input.txt and print the contents of the same. Count the number of words in the file and number of sentences in the file
 
