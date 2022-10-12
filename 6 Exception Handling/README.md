@@ -1,4 +1,4 @@
-# Inheritance
+# Exception Handling
 
 **Ques 1 :** Read the Registration Number and Mobile Number of a student. If the Registration Number does not contain exactly 9 characters or if the Mobile Number does not contain exactly 10 digits, throw an IllegalArgumentException stating that "Registration number does not contain 9 characters" and "Mobile number does contain 10 digits". If the Mobile Number contains any character other than a digit, raise a NumberFormatException. If the Registration Number contains any character other than digits and alphabets, throw a NoSuchElementException. If they are valid, print the message ‘valid’ else ‘invalid’.
 
