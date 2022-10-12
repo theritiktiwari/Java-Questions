@@ -159,7 +159,7 @@ public class code7 {
 }
 ```
 
-**Ques 7 :** Construct a java program to create a Menu driven application that would perform the following tasks:
+**Ques 8 :** Construct a java program to create a Menu driven application that would perform the following tasks:
 
 - Factorial of a number
 - Reversal of a number
