@@ -2,7 +2,7 @@
 
 **Ques 1 :** Read the Registration Number and Mobile Number of a student. If the Registration Number does not contain exactly 9 characters or if the Mobile Number does not contain exactly 10 digits, throw an IllegalArgumentException stating that "Registration number does not contain 9 characters" and "Mobile number does contain 10 digits". If the Mobile Number contains any character other than a digit, raise a NumberFormatException. If the Registration Number contains any character other than digits and alphabets, throw a NoSuchElementException. If they are valid, print the message ‘valid’ else ‘invalid’.
 
-**Code 1 :**
+**Code :**
 
 ```java
 import java.util.*;
@@ -60,7 +60,7 @@ public class Main {
 
 **Ques 2 :** Write a java program to open a file named ReadContent.txt and read and print the contents of the file. While doing so handle all the possible exceptions (checked and unchecked) that may arise and handle them properly. Ensure that the file is closed in the finally block after all the file manipulations are carried out.
 
-**Code 2 :**
+**Code :**
 
 ```java
 import java.io.*;
@@ -88,6 +88,7 @@ public class Main {
                 file_sc.close();
             }
         }
+        sc.close();
     }
 }
 ```
@@ -98,7 +99,7 @@ public class Main {
 - "Dividing by zero is not permitted" when a number is divided by zero.
 - "Input string contains non-numeric data" when a number format exception is encountered given that an input is a string with no numeric values.
 
-**Code 3 :**
+**Code :**
 
 ```java
 import java.util.*;
@@ -126,7 +127,7 @@ public class Main {
 
 **Ques 4 :** A swimming pool arena permits an individual to swim based on the criteria that the person is aged above 18 and knows swimming. Create two user defined exceptions namely SwimmingNotKnown and InvalidAge exceptions. Based on the input age and swimming status entered by the user, the program should check and display the appropriate exception message.
 
-**Code 4 :**
+**Code :**
 
 ```java
 import java.util.*;

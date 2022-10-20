@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class code3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -9,9 +10,9 @@ public class code3 {
         binary1 = scanner.nextLong();
         System.out.print("Enter second binary number: ");
         binary2 = scanner.nextLong();
-        while (binary1 != 0 || binary2 != 0){
-            sum[i++] = (int)((binary1 % 10 + binary2 % 10 + carry) % 2);
-            carry = (int)((binary1 % 10 + binary2 % 10 + carry) / 2);
+        while (binary1 != 0 || binary2 != 0) {
+            sum[i++] = (int) ((binary1 % 10 + binary2 % 10 + carry) % 2);
+            carry = (int) ((binary1 % 10 + binary2 % 10 + carry) / 2);
             binary1 = binary1 / 10;
             binary2 = binary2 / 10;
         }
@@ -23,5 +24,6 @@ public class code3 {
             System.out.print(sum[i--]);
         }
         System.out.print("\n");
+        scanner.close();
     }
 }

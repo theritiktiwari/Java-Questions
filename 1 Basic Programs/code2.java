@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class code2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -7,5 +8,6 @@ public class code2 {
         System.out.print("Enter your last name : ");
         String lastName = sc.nextLine();
         System.out.println("Welcome! " + firstName + " " + lastName);
+        sc.close();
     }
 }

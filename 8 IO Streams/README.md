@@ -2,7 +2,7 @@
 
 **Ques 1 :** Using suitable I/O streams, write a Java program to read the content of a file named Input.txt and print the contents of the same. Count the number of words in the file and number of sentences in the file
 
-**Code 1 :**
+**Code :**
 
 ```java
 import java.io.*;
@@ -31,11 +31,10 @@ public class Main{
 - No. of sentences in the file.
 - No. of words that start with "J"
 
-**Code 2 :**
+**Code :**
 
 ```java
 import java.io.*;
-import java.util.*;
 public class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader("input.txt"));
@@ -64,7 +63,7 @@ public class Main{
 
 **Ques 3 :** Write a program to demonstrate the knowledge of students in File handling. Eg., Define a class Donor to store the below mentioned details of a blood donor. Name, age, Address, Contact number, blood group, date of last donation Create n objects of this class for all the regular donors at VIT. Write these objects onto a file. Read these objects from the file and display only those donor's details whose blood group is A +ve and had not donated for the recent six months.
 
-**Code 3 :**
+**Code :**
 
 ```java
 import java.io.*;

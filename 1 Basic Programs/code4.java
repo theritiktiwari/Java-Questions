@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class code4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -8,5 +9,6 @@ public class code4 {
         double perimeter = 2 * Math.PI * radius;
         System.out.println("Radius of the circle is : " + radius);
         System.out.println("Perimeter of the circle is : " + perimeter);
+        sc.close();
     }
 }

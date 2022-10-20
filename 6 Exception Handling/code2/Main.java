@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.*;
+
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -23,5 +24,6 @@ public class Main {
                 file_sc.close();
             }
         }
+        sc.close();
     }
 }

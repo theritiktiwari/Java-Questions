@@ -2,7 +2,7 @@
 
 **Ques 1 :** Create a class named ConferenceRegistration that is used for getting the participant details. The following details are to be gathered: Paper ID, Author Name, Registration Amount = 7000, Registration Date. A discount of 50% is applicable for participants who are members of XYZ Computer Society. The discount should be applicable while registering itself (Use parameterised constructor / constructor overloading). Create three participant objects of whom one is a member of XYZ Computer Society. Display the registration details of all three participants.
 
-**Code 1 :**
+**Code :**
 
 ```java
 import java.util.*;
@@ -62,7 +62,7 @@ public class ConferenceRegistration{
 
 **Ques 2 :** Create a class named Employee where the details pertaining to employees such as Employee ID, Name, Department, Salary and Designation are added. Create a member method named incentive which will add 10% of salary as bonus to all employees. For some employees who have been exceptional in their work an additional bonus of Rs. 10000 is given. Overload the incentive method to perform this. Create three employee objects of whom one is an exceptional employee. Display the revised salary details along with the employee id and name for all the three employees.
 
-**Code 2 :**
+**Code :**
 
 ```java
 import java.util.*;
@@ -126,7 +126,7 @@ public class Employee {
 
 **Ques 3 :** Assume that a gallon of paint covers about 300 square feet of wall space. Create an application with a main() method that prompts the user for the length, width, and height of a rectangular room. Pass these three values to a method that does the following: Calculates the wall area for a room, passes the calculated wall area to another method that calculates and returns the number of gallons of paint needed, displays the number of gallons needed, computes the price based on a paint price of $30 per gallon. Assuming that the painter can buy any fraction of a gallon of paint at the same price as a whole gallon. Return the price to the main() method The main() method displays the final price. Save the application as PaintCostFinder.java
 
-**Code 3 :**
+**Code :**
 
 ```java
 import java.util.*;
@@ -172,7 +172,7 @@ public class PaintCostFinder{
 
 These details should be initialized as the passenger object is created. While creating the object the passenger will enter the source and destination and these details should be populated automatically and the ticket fare should be returned. If the passenger is a freedom fighter he will pass an additional parameter namely freedomFighter = Y while creating the object. The ticket fare should be waived by 50% for the freedom fighter based on his choice of source and destination. Construct a class with suitable constructors, methods, fields etc.
 
-**Code 4 :**
+**Code :**
 
 ```java
 import java.util.*;

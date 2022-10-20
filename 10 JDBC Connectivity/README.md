@@ -8,7 +8,7 @@
 - Delete all the records with designation 'Clerk'. Display the count of rows that were deleted during this transaction.
 - Execute the statement to drop EMPLOYEE table. Consider including exceptions to check if the table exists before performing drop operation.
 
-**Code 1 :**
+**Code :**
 
 ```java
 import java.util.*;

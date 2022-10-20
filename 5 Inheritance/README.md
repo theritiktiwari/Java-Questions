@@ -2,7 +2,7 @@
 
 **Ques 1 :** Create a class named StudentDetails which has a method named getMarks to collect the particulars of student marks in 5 subjects in an array. Create another class named StudentAverage which computes the average marks using the computeAverage method. This class also has a method named computeGPA which will compute the GPA of the student based on the marks secured. Assume that all the 5 courses are 3 credit courses. If student mark is >=95, give a score of 10. If the mark is >=90 and < 95, give 9. If the mark is >=80 and < 90, give 8. If the mark is >=70 and < 80 give 7. If the mark is >=60 and < 70 give 6. If the mark is >=50 and < 60 give 5. Else give the score as 0. Write a program to compute the student average mark and GPA and print the same.
 
-**Code 1 :**
+**Code :**
 
 ```java
 import java.util.*;
@@ -77,7 +77,7 @@ public class Main{
 
 **Ques 2 :** Create a class named BankCustomer that has a method named getCustomerDetails that collects the details such as name, dob, PAN, Aadhar no, address etc. Create two classes namely SavingsAccount and LoanAccount that gets all the customer details from BankCustomer class. The Savings Account class maintains the SB account details of the customer with a unique SB Account number and account balance. Likewise, assume that if the same customer has availed a loan, the LoanAccount maintains the loan details of the customer with a unique Loan Account number, Loan amount and Loan Type. Now, map the PAN and Aadhar of the customer with the respective SB account and Loan Account. Display the SB account number and account balance along with PAN and Aadhar. Likewise Display the loan particulars along with PAN and Aadhar.
 
-**Code 2 :**
+**Code :**
 
 ```java
 import java.util.*;
@@ -167,13 +167,14 @@ public class Main{
                     System.out.println("Invalid choice");
             }
         }while(choice != 3);
+        sc.close();
     }
 }
 ```
 
 **Ques 3 :** Create a class named FurnitureShop which has a method named getFurnitures that lists the different furnitures sold. The customer selects the furniture he wants to buy from the list. The class also has a method to get the customer details like name, address, phone no, distanceFromShop. Create another class named CustomizeFurniture where there is a method named doCustomization which gets the furniture chosen from the FurnitureShop class and asks the user to enter the type of customization like extra cushion, fine polishing etc. If no customization is needed, just enter nil. Create another class named Transport which has a method named transportCharges which checks if the customer residence is less than 5km from shop. If so there is no transportation charged added. Else include a transportation charge of Rs.500. Write a program to print the Customer name, Furniture Selected, Customization and transportation charge.
 
-**Code 3 :**
+**Code :**
 
 ```java
 import java.util.*;

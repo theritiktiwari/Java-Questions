@@ -26,6 +26,7 @@ public class code2 {
         System.out.print("Enter your last name : ");
         String lastName = sc.nextLine();
         System.out.println("Welcome! " + firstName + " " + lastName);
+        sc.close();
     }
 }
 ```
@@ -60,6 +61,7 @@ public class code3 {
             System.out.print(sum[i--]);
         }
         System.out.print("\n");
+        scanner.close();
     }
 }
 ```
@@ -79,6 +81,7 @@ public class code4 {
         double perimeter = 2 * Math.PI * radius;
         System.out.println("Radius of the circle is : " + radius);
         System.out.println("Perimeter of the circle is : " + perimeter);
+        sc.close();
     }
 }
 ```
@@ -110,6 +113,7 @@ public class code5 {
         } else {
             System.out.println("You are odd");
         }
+        sc.close();
     }
 }
 ```
@@ -134,6 +138,7 @@ public class code6 {
         System.out.println("Int : " + num);
         System.out.println("Decimal : " + d);
         System.out.println("String : " + str);
+        sc.close();
     }
 }
 ```
@@ -155,6 +160,7 @@ public class code7 {
             System.out.print(num * i + " ");
         }
         System.out.print("\n");
+        scanner.close();
     }
 }
 ```

@@ -2,7 +2,7 @@
 
 **Ques 1 :** Within the package named 'primepackage', define a class PrimeNum which includes a method checkForPrime() for checking if the given number is prime or not. Get the two numbers from user. Define another class named TwinPrimeNum outside this package which will display all the pairs of prime numbers whose difference is 2. (Eg, within the range 1 to 10, all possible twin prime numbers are (3,5), (5,7)). The TwinPrimeNum class should make use of the checkForPrime() method in the PrimeNum class.
 
-**Code 1 :**
+**Code :**
 
 ```java
 package primepackage;
@@ -52,7 +52,7 @@ public class TwinPrimeNum {
 
 **Ques 2 :** Define an abstract class ‘Themepark’ and inherit two classes ‘ThemePark1’ and ‘ThemePark2’ from the abstract class. In both the theme parks, the details of visitor such as name, age, gender, city, swimming (Y/N) are collected using a member method in the abstract class. Create a menu listing the ThemeParks 1 and 2. If the user enters 1, theme park1 is selected and processed further. If the user enters 2, theme park2 is selected and processed. Also, declare an abstract method playDiving(int a, boolean s) which must be redefined in the subclasses. In ThemePark1, the adults are allowed to play diving if the age >=18 and the adults know swimming. In ThemePark2, the adults are allowed to play diving if the age >=21 and the adults know swimming. Implement the logic to check if the person can play diving in the respective child classes based on the rule specified above. Display the visitor details and let know if the visitor is eligible for diving in the respective themepark selected by the visitor.
 
-**Code 2 :**
+**Code :**
 
 ```java
 import java.util.*;
@@ -145,7 +145,7 @@ public class Main {
 
 **Ques 3 :** Create an interface named ThemePark. The themepark interface has a method named getVisitorDetails() to fetch the visitor details such as name, age, gender, city, swimming (Y/N). It has another method named playDiving(int a, boolean s) that takes the age and swimming known (Y/N) status as input. Create two classes named ‘ThemePark1’ and ‘ThemePark2’ that uses the ThemePark interface and uses the same to get visitor details and to check whether the visitor can do diving. ThemePark2 has few other watersports as well for which knowing to swim and age >=21 is the eligiblity criteria. Create a member method named playWatersports(int a, boolean s) inside ThemePark2 class to accomodate this. Create a menu listing the ThemeParks 1 and 2. If the user enters 1, theme park1 is selected and processed further. If the user enters 2, theme park2 is selected and processed. Display the visitor details and let know if the visitor is eligible for diving if theme park1 is selected and to display the visitor details and eligibility to dive and play watersports if theme park2 is selected.
 
-**Code 3 :**
+**Code :**
 
 ```java
 import java.util.*;
@@ -245,7 +245,7 @@ public class Main {
 
 **Ques 4 :** Create an abstract class named Bank that has a member method named getCustomerDetails() to fetch details of customer such as account number, account open year, name, age, average yearly balance. There is also an abstract method named checkPreviligeCustomer(int a, int y) which takes average yearly balance and account open year as inputs. Create two child classes Bank1 and Bank2. Use the base class method to get the customer details. Bank 1 categorizes a customer as previlige customer if the average yearly balance >= 100000 and if the customer account is more than 5 years. Bank 1 categorizes a customer as previlige customer if the average yearly balance >= 200000 and if the customer account is more than 4 years. Use the abstract method in the child classes to validate the previlige customer logic. Create a menu listing Bank1 and Bank2. If the user enters 1, theme Bank1 is selected and processed further. If the user enters 2, theme Bank2 is selected and processed. Display the account number, name and Previlige Customer eligibility.
 
-**Code 4 :**
+**Code :**
 
 ```java
 import java.util.*;
@@ -334,7 +334,7 @@ public class Main {
 
 **Ques 5 :** Implement a solution to question 4 using interface. Create an interface named Bank and have two methods getCustomerDetails() and checkPreviligeCustomer(int a, int y). Create two classes Bank1 and Bank 2 that implements the Bank interface.
 
-**Code 5 :**
+**Code :**
 
 ```java
 import java.util.*;

@@ -2,7 +2,7 @@
 
 **Ques 1 :** Write a simple java program to perform addition of two 3 x 3 matrices using arrays.
 
-**Code 1 :**
+**Code :**
 
 ```java
 import java.util.*;
@@ -50,7 +50,7 @@ public class MatrixAddition {
 
 **Ques 2 :** Using a simple java program, demonstrate the working of matrix multiplication using arrays.
 
-**Code 2 :**
+**Code :**
 
 ```java
 import java.util.*;
@@ -94,7 +94,7 @@ public class MatrixMultiplication {
 
 **Ques 3 :** Assume that VIT is registering new first year students into its Student Management System. Create a class named StudentDetails. Details such as Name, Registration Number, Department, Date of Birth, email id and mobile number are fetched. The registration number starts with 202201. As new students get instantiated, the registration number should get auto-incremented and mapped to the instance. There should be a method named display that prints all the details pertaining to each student instance. Create 5 student instances for this StudentDetails class and display the details of each instance.
 
-**Code 3 :**
+**Code :**
 
 ```java
 import java.util.*;
@@ -160,7 +160,7 @@ class StudentDetails {
 
 **Ques 4 :** Assume that your Java faculty has assigned an online quiz. Create a class named JavaQuiz which comprises of details like StudentName, RegNo, emailID and mobileNo. The Java faculty wants to know how many students have enrolled for this quiz. Have a data member named studentCount that is incremented as the students create their instances for the JavaQuiz class. Have display method to display the student details along with the student count printed.
 
-**Code 4 :**
+**Code :**
 
 ```java
 import java.util.*;
@@ -204,7 +204,7 @@ class JavaQuiz{
 
 **Ques 5 :** Create the below two classes and execute the TestThis program. Observe the output. Modify the below program suitably using "this" such that the instance details are printed.
 
-**Code 5 :**
+**Code :**
 
 ```java
 class Student{
@@ -233,7 +233,7 @@ class Main{
 
 **Ques 6 :** Assume that you have a class names First and you try to execute the same using another class TestFirst. What will be the output? If there any compilation errors, how will you correct the same so that the variable values are printed.
 
-**Code 6 :**
+**Code :**
 
 ```java
 class First{
@@ -254,7 +254,7 @@ public class Main{
 
 **Ques 7 :** Assume that you have a class named Second inside a package p1. Using another class TestSecond which is in package p2, you try to instantiate the P1 class. What will be the output? How can the error observed if any be resolved.
 
-**Code 7 :**
+**Code :**
 
 ```java
 package p1;
@@ -279,7 +279,7 @@ public class TestSecond{
 
 **Ques 8 :** Assume that class Three present in package p1 has a protected method msg(). How will you access this protected method msg() from another class present in package p2?
 
-**Code 8 :**
+**Code :**
 
 ```java
 package p1;

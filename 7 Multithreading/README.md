@@ -2,7 +2,7 @@
 
 **Ques 1 :** Assume that a course CSE1007 is offered in two slots D1 and D2 and each slot has only one class number. Write a simple java program using threads to track the student registration of each class and print the total number of students registered for D1 slot and D2 slot. Implement the solution by extending the thread class initially followed by implementation using runnable interface as well.
 
-**Code 1 :**
+**Code :**
 
 ```java
 import java.util.*;
@@ -67,7 +67,7 @@ public class Main {
 
 **Ques 2 :** Write a Java program to print three multiplication tables (2, 3 and 5) using threads. (i.e assign each thread for a table).
 
-**Code 2 :**
+**Code :**
 
 ```java
 import java.util.*;
@@ -130,7 +130,7 @@ public class Main{
 
 **Ques 3 :** Consider the case of a producer consumer problem. Demonstrate the behaviour when there is no Inter Thread Communication (ITC) and subsequently show how ITC promotes effective communication between two threads.
 
-**Code 3 :**
+**Code :**
 
 - WITHOUT ITC
 
@@ -250,7 +250,7 @@ class Main{
 
 **Ques 4 :** As part of a technical week celebration three events namely workshop, poster presentation and hackathon are organized. There are three registration desks put up for these events. The registration cost for workshop, poster presentation and hackathon is Rs.100, Rs.200 and Rs.300 respectively. Using threads track the registration count and registration cost of each event.
 
-**Code 4 :**
+**Code :**
 
 ```java
 import java.util.*;
@@ -325,7 +325,7 @@ public class Main{
 
 **Ques 5 :** Assume that a courier delivery office has to deliver 10 parcels to two customers. Write a java program using threads to deliver the odd parcels to customer1 and even parcels to customer2.
 
-**Code 5 :**
+**Code :**
 
 ```java
 import java.util.*;
@@ -361,7 +361,7 @@ public class Main{
 
 **Ques 6 :** Assume that a restaurant has received 20 orders. The first 5 orders have to be catered to table1, orders 6-10 for table 2, orders 11-15 for table 3 and orders 16-20 for table 4. Implement a solution for this using Java threads.
 
-**Code 6 :**
+**Code :**
 
 ```java
 import java.util.*;

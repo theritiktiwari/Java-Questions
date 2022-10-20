@@ -22,7 +22,7 @@
 - Shuffle and display the elements of list_days.
 - Compare days_list with week_days.
 
-**Code 1 :**
+**Code :**
 
 ```java
 import java.util.*;
@@ -112,7 +112,7 @@ public class Main{
 - **D.** List the entire phone directory.
 - **E.** Exit from the program.
 
-**Code 2 :**
+**Code :**
 
 ```java
 import java.util.*;

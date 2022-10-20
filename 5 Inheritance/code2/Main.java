@@ -5,7 +5,8 @@ class BankCustomer {
     int aadhar;
 
     Scanner sc = new Scanner(System.in);
-    void getCustomerDetails(){
+
+    void getCustomerDetails() {
         System.out.print("Enter the name of the customer : ");
         name = sc.next();
         System.out.print("Enter the date of birth of the customer : ");
@@ -19,14 +20,16 @@ class BankCustomer {
 
 class SavingsAccount extends BankCustomer {
     int balance, accno;
-    SavingsAccount(){
+
+    SavingsAccount() {
         getCustomerDetails();
         System.out.print("Enter the account number of the customer : ");
         accno = sc.nextInt();
         System.out.print("Enter the balance of the customer : ");
         balance = sc.nextInt();
     }
-    void displayCustomerDetails(){
+
+    void displayCustomerDetails() {
         System.out.println("Name : " + name);
         System.out.println("Date of Birth : " + dob);
         System.out.println("Account Number : " + accno);
@@ -40,7 +43,7 @@ class LoanAccount extends BankCustomer {
     int loan, loanAccNum;
     String loanType;
 
-    LoanAccount(){
+    LoanAccount() {
         getCustomerDetails();
         System.out.print("Enter the loan account number of the customer : ");
         loanAccNum = sc.nextInt();
@@ -49,7 +52,8 @@ class LoanAccount extends BankCustomer {
         System.out.print("Enter the loan type of the customer : ");
         loanType = sc.next();
     }
-    void displayCustomerDetails(){
+
+    void displayCustomerDetails() {
         System.out.println("Name : " + name);
         System.out.println("Date of Birth : " + dob);
         System.out.println("Loan Account Number : " + loanAccNum);
@@ -59,17 +63,18 @@ class LoanAccount extends BankCustomer {
         System.out.println("PAN Number : " + PAN);
     }
 }
-public class Main{
-    public static void main(String args[]){
+
+public class Main {
+    public static void main(String args[]) {
         int choice;
         Scanner sc = new Scanner(System.in);
-        do{
+        do {
             System.out.println("1. Savings Account");
             System.out.println("2. Loan Account");
             System.out.println("3. Exit");
             System.out.print("Enter your choice : ");
             choice = sc.nextInt();
-            switch(choice){
+            switch (choice) {
                 case 1:
                     SavingsAccount sa = new SavingsAccount();
                     sa.displayCustomerDetails();
@@ -84,6 +89,7 @@ public class Main{
                 default:
                     System.out.println("Invalid choice");
             }
-        }while(choice != 3);
+        } while (choice != 3);
+        sc.close();
     }
 }
