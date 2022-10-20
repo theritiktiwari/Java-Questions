@@ -2,7 +2,7 @@
 
 **Ques 1 :** Construct a map to contain 10 values of employee name and designation. Write a simple JDBC Connectivity application that uses the above map to populate a table named EMPLOYEE. Perform the below operations using JDBC Statements:
 
-- A. Fetch the name of employees with designation as 'Manager'.
+- Fetch the name of employees with designation as 'Manager'.
 - Fetch the different designations available in Employee table.
 - Update the designation of managers from 'Manager' to 'MGR'.
 - Delete all the records with designation 'Clerk'. Display the count of rows that were deleted during this transaction.
