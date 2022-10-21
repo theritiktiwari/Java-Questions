@@ -13,4 +13,4 @@
 | 9     | Collection Frameworks                     | [Click Here](./9%20Collection%20Frameworks/)                             |
 | 10    | JDBC Connectivity                         | [Click Here](./10%20JDBC%20Connectivity/)                                |
 | 11    | Miscellaneous Questions 1                 | [Click Here](./Miscellaneous%20Questions%201/)                           |
-| 11    | Miscellaneous Questions 2                 | [Click Here](./Miscellaneous%20Questions%202/)                           |
+| 12    | Miscellaneous Questions 2                 | [Click Here](./Miscellaneous%20Questions%202/)                           |
