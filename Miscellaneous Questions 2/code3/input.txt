@@ -1,0 +1,3 @@
+Use Buffered stream to read the contents of a file named "Input.txt" and write the details of the input file such as file size, number of sentences and word count into another output file "Output.txt"
+Use Buffered stream to read the contents of a file named "Input.txt" and write the details of the input file such as file size, number of sentences and word count into another output file "Output.txt"
+Use Buffered stream to read the contents of a file named "Input.txt" and write the details of the input file such as file size, number of sentences and word count into another output file "Output.txt"
