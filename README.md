@@ -12,3 +12,4 @@
 | 8     | Java I/O Streams                          | [Click Here](./8%20IO%20Streams/)                                        |
 | 9     | Collection Frameworks                     | [Click Here](./9%20Collection%20Frameworks/)                             |
 | 10    | JDBC Connectivity                         | [Click Here](./10%20JDBC%20Connectivity/)                                |
+| 11    | Miscellaneous Questions 1                 | [Click Here](./Miscellaneous%20Questions%201/)                           |
