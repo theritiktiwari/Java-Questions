@@ -138,14 +138,14 @@ public class Action extends HttpServlet {
 		String semester = req.getParameter("semester");
 		String cgpa = req.getParameter("cgpa");
         
-        out.print("You entered <br/>");
-        out.print("<br/> Name : " + name);
-        out.print("<br/> Register Number : " + register_number);
-        out.print("<br/> Department : " + department);
-        out.print("<br/> Semester : " + semester);
-        out.print("<br/> CGPA : " + cgpa);
-		
-        out.close();
+		out.print("You entered <br/>");
+		out.print("<br/> Name : " + name);
+		out.print("<br/> Register Number : " + register_number);
+		out.print("<br/> Department : " + department);
+		out.print("<br/> Semester : " + semester);
+		out.print("<br/> CGPA : " + cgpa);
+
+		out.close();
 	}
 }
 ```
